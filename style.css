@@ -1,0 +1,140 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: rgb(233, 233, 233);
+}
+.container{
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+#elementToWorkon {
+  padding: 30px;
+  display: none;
+}
+
+/* Main Section */
+.main{
+  width: 100%;
+}
+.main-top{
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(43, 43, 43);
+}
+.main-body{
+  padding: 10px 10px 10px 20px;
+}
+h1{
+  margin: 20px 10px;
+}
+
+.job_card{
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  border: 2px solid rgb(190, 190, 190);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+.job_details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.job_details .img i{
+  width: 70px;
+  font-size: 3rem;
+  margin-left: 1rem;
+  padding: 10px;
+  color: rgb(82, 22, 138);
+  background: rgb(216, 205, 226);
+}
+.job_details .text{
+  margin-left: 2.3rem;
+}
+
+.job_card:active{
+  border: 2px solid blueviolet;
+  transition: 0.4s;
+}
+button {
+  border-radius: 10px;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  border: 2.5px solid #ccc;
+  background: #5039a4;
+  font-weight: 600;
+  color: #ccc;
+}
+
+table {
+    border-collapse: collapse !important; 
+}
+th{
+    padding: 20px !important;
+    border: 1px solid #835353 !important;
+    background-color: #D8CDE2 !important;
+
+}
+.title1 {
+    height: 57px !important;
+    width: 444px !important;
+}
+.span1 {
+    width: 16px !important;
+    height: 22px !important;
+    font-weight: 700px !important;
+    font-size: 15px !important;
+}
+.span2 {
+    height: 22px !important;
+    font-weight: 700px !important;
+    font-size: 15px !important;
+    text-align: center !important;
+}
+.title2 {
+    width: 276px !important;
+    height: 57px !important;
+}
+.title3 {
+    width: max-content !important;
+    height: 57px !important;
+}
+
+td {
+    border: 1px solid #7c5b5b !important;
+}
+.td1 {
+    height: 45px !important;
+}
+.td2,.td3 {
+    text-align: center !important;
+}
+h2 {
+    font-weight: 700 !important;
+    font-size: 25px !important;
+}
+
+p {
+    margin-left: 23px !important;
+}
